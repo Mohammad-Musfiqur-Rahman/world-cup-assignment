@@ -11,6 +11,16 @@ body {
     margin: 0 auto;
 }
 
+a:hover {
+    background-image: linear-gradient(#e74c3c,rgb(99, 41, 41));
+}
+
+article:hover {
+    -webkit-box-shadow: -7px -10px 49px -1px rgba(0,0,0,0.87); 
+    box-shadow: -7px -10px 49px -1px rgba(0,0,0,0.87);
+    transition: 1.5s;
+}
+
 /********************* Header Area *******************************/
 .banner-area{
     background-color: black;
@@ -55,9 +65,6 @@ body {
     display: inline-block;
 }
 
-a:hover {
-    background-image: linear-gradient(#e74c3c,rgb(99, 41, 41));
-}
 
 /********************* Main Area *******************************/
 .main-area {
