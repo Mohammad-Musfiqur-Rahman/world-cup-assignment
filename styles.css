@@ -146,3 +146,17 @@ footer {
     column-gap: 30px;
     justify-content: center;
 }
+
+/********************* Upcoming Match Flag Area*******************************/
+
+.flag-img {
+    display: flex;
+}
+.flag-img img {
+    width: 130px;
+    height: auto;
+
+}
+.flag-info {
+    text-align: center;
+}
