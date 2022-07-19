@@ -1,8 +1,56 @@
-/************ Fonts ****************/
+/********************* Fonts *******************************/
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
 
-font-family: 'Poppins', sans-serif;
+body {
+    font-family: 'Poppins', sans-serif;
+    
+}
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
 
-body{
-    background-color: red;
+/********************* Header Area *******************************/
+.banner-area{
+    background-color: black;
+    color:aliceblue;
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border-radius: 15px;
+    padding-top: 40px;
+}
+
+.header-text {
+    padding-left: 70px;
+}
+.header-text h1 {
+    font-size: 4em;
+    line-height: 80px;
+}
+
+.header-img {
+    padding-right: 20px;
+    display: grid;
+    align-items: end;
+}
+.header-img img {
+    width: 100%;
+}
+
+.banner-area a {
+    display: inline-block;
+    margin-top: 20px;
+    text-decoration: none;
+    background-color: #DD0000;
+    color: aliceblue;
+    padding: 10px 30px;
+    font-weight: 100;
+    border-radius: 5px;
+}
+
+.banner-area i {
+    margin-left: 10px;
+    display: inline-block;
 }
