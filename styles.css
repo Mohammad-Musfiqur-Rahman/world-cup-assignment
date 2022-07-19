@@ -11,7 +11,7 @@ body {
     margin: 0 auto;
 }
 
-a:hover {
+.active, a:hover {
     background-image: linear-gradient(#e74c3c,rgb(99, 41, 41));
 }
 
