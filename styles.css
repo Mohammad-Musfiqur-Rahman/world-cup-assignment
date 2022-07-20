@@ -219,5 +219,29 @@ footer {
     .aside-menu {
         display: flex;
         justify-content: space-evenly;
+    }
   
+}
+/* Large device */
+@media screen and (min-width: 993px) and (max-width: 1300px)  {
+    .main-area {
+        grid-template-columns: repeat(1, 1fr);
+    } 
+    .header-text {
+        padding-bottom: 70px;
+    }
+    .article-area {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .article-area img {
+        width: 100%;
+    }
+    .tablet-button {
+        display: block;
+
+    }
+    .aside-menu {
+        display: flex;
+        justify-content: space-evenly;
+    }
 }
